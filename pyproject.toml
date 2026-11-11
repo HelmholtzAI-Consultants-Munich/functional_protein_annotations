@@ -1,0 +1,17 @@
+[project]
+name = "functional-protein-annotations"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bio>=1.8.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
